@@ -86,6 +86,7 @@
   height: 5%;
   align-self: flex-end;
   padding: 5px 0 0 0;
+  position: sticky;
 }
 .footer__name {
   font-size: 0.8rem;

@@ -94,6 +94,7 @@
   height: calc(100% - 95%);
   align-self: flex-end;
   padding: 5px 0 0 0;
+  position: sticky;
 
   &__name {
     font-size: $font-footer;
