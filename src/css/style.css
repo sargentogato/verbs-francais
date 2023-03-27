@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* Agregar variables para los paddings top y otras variables más */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.header,
+.menu,
+.body-verb,
+.footer {
+  flex-basis: 100%;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  height: 10%;
+}
+.header__form {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu,
+.menu__list {
+  overflow-x: auto;
+}
+
+.menu {
+  border: 1px solid hsla(181, 100%, 50%, 0.1);
+  height: 8%;
+}
+.menu__list {
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px;
+}
+.menu__item {
+  border: 1px solid #efefef;
+  border-radius: 20px;
+  font-size: 0.91rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+
+.body-verb {
+  display: flex;
+  flex-direction: column;
+  height: 77%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow-x: auto;
+}
+.body-verb__title {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.body-verb__family {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  border-bottom: 1px solid black;
+}
+.body-verb__time {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.body-verb__list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.body-verb__sujets {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 5%;
+  align-self: flex-end;
+  padding: 5px 0 0 0;
+}
+.footer__name {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=style.css.map */
